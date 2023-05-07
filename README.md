@@ -16,8 +16,8 @@ This chatbot application is a simple, yet powerful, web-based chat system that a
 - Responsive web-based chat interface
 - Multiple chatbots with different functionalities
   - Pokébot: Provides information on Pokémon using the [PokéAPI](https://pokeapi.co/)
-  - FactBot: Delivers interesting facts using an open fact API
-  - FoodBot: Shares information about food, recipes, and ingredients using an open food API
+  - FactBot: Delivers interesting facts using an [UselessFacts API](https://uselessfacts.jsph.pl)
+  - FoodBot: Shares information about food, recipes, and ingredients using [Themealdb API](www.themealdb.com)
 - User-friendly command system to interact with chatbots
 - ChatGPT integration for advanced natural language understanding
 - Local storage support for message history
@@ -33,7 +33,7 @@ git clone https://github.com/Dolabok/chatbot-gpt.git
 2. Install the necessary dependencies:
 
 ```bash
-cd chatbot-application
+cd chatbot-gpt
 npm install
 ```
 
